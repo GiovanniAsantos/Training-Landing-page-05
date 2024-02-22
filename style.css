@@ -1,0 +1,511 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #C9C9C9;
+}
+
+.navbarpai{
+    display: flex;
+}
+
+.logo{
+    position: absolute;
+}
+
+.img1{
+    width: 150%;
+    height: 100%;
+}
+
+.navbar1{
+    margin-left: 6vw;
+    width: 45vw;
+    position: absolute;
+    display: flex;
+}
+
+button{
+    color: #C9C9C9;
+    background-color: transparent;
+    border: 0;
+    height: 5vh;
+    width: 10vw;
+}
+
+a{
+    text-decoration: none;
+    color: #C9C9C9;
+}
+
+select{
+    text-decoration: none;
+    color: #C9C9C9;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar2{
+    position: absolute;
+    margin-left: 78vw;
+}
+
+.img2{
+    margin-top: 10px;
+    margin-left: -5vw;
+    position: absolute;
+}
+
+.img3{
+    margin-top: 9px;
+    position: absolute;
+    margin-left: 8vw;
+}
+
+.greenbutton{
+    color: #5BD5B6;
+    margin-left: -4vw;
+    margin-top: -3px;
+    position: absolute;
+
+}
+
+.lastbutton{
+    margin-left: 8vw;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.body{
+    margin-top: 40px;
+}
+
+.pessoas{
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 10vw;
+    width: 25vw;
+    height: 9vh;
+}
+
+.imgP{
+    width: 25vw;
+    height: 9vh;
+}
+
+.formulario{
+    margin-left: 50vw;
+    margin-top: 10vh;
+    position: absolute;
+    width: 30vw;
+    height: 65vh;
+    border-radius: 3px;
+    border: 2px;
+    -webkit-box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.81); 
+    box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.81);
+    background-color: #F5F5F5;
+
+}
+
+h3{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.input1{
+    margin-top: 5px;
+    margin-left: 30px;
+    position: absolute;
+    width: 15vw;
+    height: 4vh;
+    border-color: #C9C9C9;
+    border-radius: 4px;
+}
+
+.input2{
+    margin-top: 40px;
+    margin-left: 30px;
+    position: absolute;
+    width: 15vw;
+    height: 4vh;
+    border-color: #C9C9C9;
+    border-radius: 4px;
+}
+
+.input3{
+    margin-top: 80px;
+    margin-left: 30px;
+    position: absolute;
+    width: 15vw;
+    height: 4vh;
+    border-color: #C9C9C9;
+    border-radius: 4px;
+}
+
+.input4{
+    margin-top: 120px;
+    margin-left: 30px;
+    position: absolute;
+    width: 15vw;
+    height: 4vh;
+    border-color: #C9C9C9;
+    border-radius: 4px;
+}
+
+.input5{
+    margin-top: 160px;
+    margin-left: 30px;
+    position: absolute;
+    width: 15vw;
+    height: 4vh;
+    border-color: #C9C9C9;
+    border-radius: 4px;
+}
+
+.input6{
+    margin-top: 255px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.input7{
+    margin-top: 290px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.p1{
+    font-size: 10px;
+    margin-top: 200px;
+    position: absolute;
+    width: 25vw;
+    margin-left: 30px;
+}
+
+.bf{
+    border-radius: 4px;
+    border: none;
+    background-color: #5BD5B6;
+    color: white;
+    width: 8vw;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 30px;
+}
+
+.qr{
+    position: absolute;
+    margin-left: 20vw;
+    width: 7vw;
+}
+
+.title{
+    width: 14vw;
+    height: 6vh;
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 45vw;
+    font-size: 19px;
+    color: #A0A0A0;
+    font-family: 'lato', sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.divBpai{
+    display: flex;
+    position: absolute;
+    margin-top: 90vh;
+}
+
+.divB1{
+    position: absolute;
+    width: 15vw;
+    font-size: 10px;
+    text-align: center;
+    color: #A0A0A0;
+    margin-left: 25vw;
+}
+
+.divB2{
+    position: absolute;
+    width: 15vw;
+    font-size: 10px;
+    text-align: center;
+    color: #A0A0A0;
+    margin-left: 42vw;
+}
+
+.divB3{
+    position: absolute;
+    width: 15vw;
+    font-size: 10px;
+    text-align: center;
+    color: #A0A0A0;
+    margin-left: 60vw;
+}
+
+.p2{
+    font-size: 10px;
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 50px;
+}
+
+.p3{
+    position: absolute;
+    font-size: 10px;
+    margin-top: 290px;
+    margin-left: 50px;
+}
+
+.waves{
+    position: absolute;
+    background-color: #EDEDED;
+    margin-top: 120vh;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.title2{
+    position: absolute;
+    color: #A0A0A0;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+.loremw{
+    margin-top: 12vh;
+    position: absolute;
+    width: 45vw;
+    margin-left: 10vw;
+    color: #A0A0A0;
+}
+
+.loremw2{
+    position: absolute;
+    color: #5BD5B6;
+    font-weight: 300;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 10vw;
+    margin-top: 27vh;
+    font-size: 12px;
+}
+
+.imgw{
+    width: 30vw;
+    height: 40vh;
+    margin-left: 60vw;
+    margin-top: 5vh;
+}
+
+.botao-play{
+    width: 3vw;
+    height: 6vh;
+    position: absolute;
+    margin-top: 18vh;
+    margin-left: 2vw;
+}
+
+.nomelastdiv{
+    position: absolute;
+    color: #7F7F7F;
+    margin-left: 5vw;
+    margin-top: 21vh;
+}
+
+.titlelastdiv{
+    position: absolute;
+    margin-top: 180vh;
+    margin-left: 30vw;
+    color: #7F7F7F;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+.lastdivflexpai{
+    display: flex;
+    width: 62vw;
+    position: absolute;
+    margin-top: 195vh;
+    margin-left: 20vw;
+    height: 20vh;
+}
+
+.lastdiv1{
+    -webkit-box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.81); 
+    box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.81);
+    background-color: #F5F5F5;
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    border-radius: 4px;
+}   
+
+.caras{
+    width: 6.5vw;
+    height: 13vh;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 12vw;
+
+}
+
+.loremlastdiv{
+    width: 10vw;
+    height: 10vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    position: absolute;
+    color: #A0A0A0;
+    font-family: italic;
+}
+
+.lastdiv2{
+    -webkit-box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.81); 
+    box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.81);
+    background-color: #F5F5F5;
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    margin-left: 21vw;
+    border-radius: 4px;
+}
+
+.lastdiv3{
+    -webkit-box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.81); 
+    box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.81);
+    background-color: #F5F5F5;
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    margin-left: 42vw;
+    border-radius: 4px;
+}
+
+.finaldiv{
+    height: 60vh;
+    width: 100%;
+    background-color: #3A5080;
+    position: absolute;
+    margin-top: 230vh;
+}
+
+.titlefinaldiv{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 2px;
+    position: absolute;
+    color: #E0E3EB;    
+    margin-left: 32vw;
+    margin-top: 5vh;
+}
+
+.finalflexdiv{
+    position: absolute;
+    width: 85vw;
+    height: 30vh;
+    margin-left: 7vw;
+    margin-top: 15vh;
+}
+
+.titlefinalflex{
+    font-size: 35px;
+    color: #FBECB9;
+    font-weight: 300;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 3vw;
+}
+
+.pfinalflex{
+    color: #FBECB9;
+    font-size: 8px;
+    font-weight: 300;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 3vw;
+}
+
+.loremfinalflex{
+    color: #E3E6ED;
+    width: 15vw;
+    margin-top: 2vh;
+}
+
+.finaldiv1{
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    margin-left: 5vw;
+}
+
+.finaldiv2{
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    margin-left: 25vw;
+    justify-content: center;
+}
+
+.finaldiv3{
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    margin-left: 45vw; 
+}
+
+.finaldiv4{
+    position: absolute;
+    width: 20vw;
+    height: 15vh;
+    margin-left: 65vw
+}
+
+.divfinalbutton{
+    margin-top: 45vh;
+    margin-left: 42vw;
+    position: absolute;
+    height: 10vh;
+}
+
+.finalbutton{
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #FBECB9;
+    color: #C4AC80;
+    margin-left: 1.6vw;
+}
+
+.finalp{
+    margin-top: 2vh;
+    color: #E3E6ED;
+}
+
+.footer{
+    height: 15vh;
+    background-color: #EDEDED;
+    margin-top: 295vh;
+}
+
